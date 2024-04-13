@@ -1,0 +1,72 @@
+.App{
+  background-image: url(./ray-hennessy-xUUZcpQlqpM-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.form_container {
+  align-self: center;
+  background-color: transparent;
+  backdrop-filter: blur(1px);
+  display: inline-block;
+  width: 38%;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+  
+}
+.heading{
+  text-align: center;
+}
+.form-group {
+  margin:auto;
+  padding: 10px;
+}
+.form-group input {
+  width: 80%;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 16px;
+}
+label{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.valid {
+  border-color: green;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+.butt {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  /* border: none; */
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
